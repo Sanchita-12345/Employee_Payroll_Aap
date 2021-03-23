@@ -19,47 +19,27 @@
               <span class="emp-text emp-payroll">PAYROLL</span>
           </div>
       </div>
-  </header>
-  <div class="main-content">
+    </header>
+    <div class="main-content">
     <!--UC2-->
-    <div class="header-content">
-        <div class="emp-detail-text">
-            Employee Details
-            <div class="emp-count">10</div>
+        <div class="header-content">
+            <div class="emp-detail-text">
+                Employee Details
+                <div class="emp-count">10</div>
+            </div>
+            <a href="../pages/payroll_form.html" class="add-button">
+                <img src="../assets/icons/add-24px.svg" alt="">ADD USER</a>
         </div>
-        <a href="../pages/payroll_form.html" class="add-button">
-            <img src="../assets/icons/add-24px.svg" alt="">ADD USER</a>
+        <!-- header-content -->
+        <div class="table-main">
+            <table id="table-display" class="table">
+            <!--UC3-->
+            </table>
+        </div>
     </div>
-    <!-- header-content -->
-    <div class="table-main">
-        <table id="display" class="table">
-        <!--UC3-->
-            <tr>
-                <th></th>
-                <th>Name</th>
-                <th>Gender</th>
-                <th>Department</th>
-                <th>Salary</th>
-                <th>Start Date</th>
-                <th>Actions</th>
-            </tr>
-            <tr>
-                <td><img class="profile" alt="" src="../assets/profile-images/Ellipse -4.png">
-                </td>
-                <td>Sanchita</td>
-                <td>Female</td>
-                <td>
-                    <div class='dept-label'>HR</div>
-                    <div class='dept-label'>Finance</div>
-                </td>
-                <td>300000</td>
-                <td>1 Nov 2020</td>
-                <td>
-                    <img id="1" onclick="remove(this)" alt="delete" src="../assets/icons/delete-black-18dp.svg">
-                    <img id="1" alt="edit" onclick="update(this)" src="../assets/icons/create-black-18dp.svg">
-                </td>
-            </tr>
-        </table>
-    </div>
+    <script src="../js/home.js"></script>
+    <script src="../js/Utility.js"></script>
+    <script src="../js/site_properties.js"></script>
+    <script src="../js/EmployeePayroll.js"></script>
 </body>
 </html>
